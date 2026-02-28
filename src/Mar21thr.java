@@ -14,10 +14,8 @@ public class Mar21thr {
 
         for (int i = 0 ; i < n; i++){
             for (int j = i + 1; j < n; j++){
-                int height;   //高度是陣列內容
+                int height= Math.min(num[i], num[j]);   //高度是陣列內容
                 int width = j - i;   //寬度是索引距離
-
-                height = Math.min(num[i], num[j]);
 
                 int currentArea = width * height;
                 if (currentArea > maxArea){
