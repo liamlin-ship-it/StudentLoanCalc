@@ -12,7 +12,7 @@ public class Mar7two {
         }
 
         for (int i = 0; i < 10; i++){
-            System.out.println("Number " + i + " appears " + counts[i] +  " time(s)");
+            System.out.println("myGrade " + i + " appears " + counts[i] +  " time(s)");
         }
     }
 }

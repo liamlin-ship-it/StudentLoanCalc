@@ -1,4 +1,4 @@
-//Problem: Calculate Life Path Number
+//Problem: Calculate Life Path myGrade
 
 //Description:
 //Sum every digit of the birth year, month, and day.
@@ -7,7 +7,7 @@
 //Example:
 //20240322 -> 2+0+2+4+0+3+2+2 = 15
 //15 -> 1+5 = 6
-//Life Path Number: 6
+//Life Path myGrade: 6
 
 import java.util.Scanner;
 
