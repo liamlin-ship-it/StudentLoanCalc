@@ -8,7 +8,7 @@ record Alphabet(String s) {
         int count = 0;
 
         for (int i = 0; i < s.length(); i++) {
-            if ('A' < s.charAt(i) && s.charAt(i) < 'Z') {
+            if ('A' <= s.charAt(i) && s.charAt(i) <= 'Z') {
                 count++;
             }
         }
@@ -19,7 +19,7 @@ record Alphabet(String s) {
         int count = 0;
 
         for (int i = 0; i < s.length(); i++) {
-            if ('a' < s.charAt(i) && s.charAt(i) < 'z') {
+            if ('a' <= s.charAt(i) && s.charAt(i) <= 'z') {
                 count++;
             }
         }
